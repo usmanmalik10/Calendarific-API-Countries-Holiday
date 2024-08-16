@@ -44,7 +44,7 @@ const fetchCountries = async () => {
   }
 
   try {
-    const response = await axios.get(`${BASE_URL}/countries`, {
+    const response = await axios.get(`${url}/countries`, {
       params: {
         api_key: API_KEY,
       },
